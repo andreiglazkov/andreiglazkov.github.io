@@ -2,4 +2,4 @@
 Meine erste Webseite
 
 
-[Урок 12] (https://andreiglazkov.github.io/src/)
+[Урок 12](https://andreiglazkov.github.io/src/)
