@@ -1,0 +1,129 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Tahoma, sans-serif;
+}
+
+.header {
+	text-align: center;
+	font-size: 24px;
+	margin-top: 52px;
+}
+
+.header span {
+	display: block;
+	font-size: 18px;
+}
+
+.header strong {
+	font-weight: 900;
+	text-transform: uppercase;
+	line-height: 45px;
+}
+
+.video, .form {
+	display: inline-block;
+}
+
+.video {
+	margin-right: 31px;
+}
+ 
+
+.form {
+	border: 5px solid blue;
+	vertical-align: top;
+	height: 305px;
+	width: 350px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 0 28px 0;
+}
+
+
+.form p {
+	margin-top: 32px;
+	/*margin-bottom: 42px;*/
+	font-size: 20px;
+	font-weight: 900;
+}
+
+input {
+	height: 48px;
+	width: 297px;
+	padding-left: 15px;
+	margin-bottom: 6px;
+	border: 1px solid #333333;
+	color: #a1a1a1;
+	font-size: 18px;
+}
+
+.main {
+	display: block;
+	text-align: center;
+	margin-top: 80px;
+}
+
+
+.btn {
+	width: 297px;
+	height: 64px;
+	color: #ffffff;
+	background: #3c3cdd;
+	border: none;
+	font-size: 18px;
+	/*display: inline; ????*/
+	/*margin-bottom: 27px;*/
+}
+
+.feature-header {
+	font-size: 27px;
+	font-weight: 900;
+	margin-bottom: 86px;
+	text-transform: uppercase;
+}
+
+
+.feature {
+	margin-top: 152px;
+	margin-bottom: 125px;
+	text-align: center;
+}
+
+.col {
+	display: inline-block;
+	text-align: center;
+	margin: 10px 50px;
+}
+
+.feature-description {
+	font-size: 16px;
+	font-weight: 900;
+	text-align: center;
+}
+
+.feature button {
+	margin-top: 99px;
+	display: block;
+	margin: 99px auto;
+	padding: 0;
+
+}
+
+.clients {
+	display: block;
+	text-align: center;
+}
+
+.clients h1 {
+	text-transform: uppercase;
+	margin-bottom: 69px;
+}
+
+.clients img {
+	/*margin: 25px auto;*/
+	padding: 7px;
+	padding-bottom: 34px;
+}
