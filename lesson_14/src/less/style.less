@@ -1,0 +1,55 @@
+/*Colors*/
+@btn-color: #fcb303;
+@text: #2e161d;
+@icons-color: #48bc15;
+@color-text: #48bc15;
+@danger: #ff0000;
+@bg-light: #ffffff;
+@light: #ffffff;
+
+/*Basic settings*/
+html {
+	font-size: 10px;
+}
+
+section {
+	padding: 10rem 0;
+}
+
+/*Main*/
+main {
+padding: 3rem 0;
+}
+
+.header {
+	height: 7rem;
+}
+
+.button {
+	background-color: @btn-color;
+	color: @light;
+	padding: 1rem 3rem;
+	border-radius: 8;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 8px;
+}
+
+.wrap {
+	display: table;
+	width: 100%;
+	height: 7rem;
+	&-block {
+		display: table-cell;
+		vertical-align: middle;
+	}
+} /*This can be saved as a snippet - automatically align in the center*/
+
+.phone-link {
+	display: inline-block;
+	color: @text;
+	font-weight: 600;
+	font-size: 2rem;
+	height: 7rem;
+	line-height: 7rem;
+}
